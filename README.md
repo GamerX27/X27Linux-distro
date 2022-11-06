@@ -10,3 +10,6 @@ icnludes also Papirus Icon Theme (https://github.com/PapirusDevelopmentTeam/papi
 it includes flatpak out of the box!
 
 also the package manager is the nala whichis a frontend for apt Link: https://gitlab.com/volian/nala
+
+wallpaper credit to: https://www.wallpaperflare.com/digital-digital-art-artwork-fantasy-art-drawing-painting-wallpaper-gjwku
+
