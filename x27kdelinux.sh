@@ -81,5 +81,6 @@ sleep 3
 echo "now the wallpaper will downloaded here you need to manualy"
 echo "you also need to change to theme to the theme you downloaded on the kde settings"
 sleep 10
-sudo exit
+echo "also the computer needs to reboot"
+sudo reboot
 
