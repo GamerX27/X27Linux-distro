@@ -4,3 +4,5 @@ My first try of kinda making my own distro/ own desktop based on debian and it u
 
 
 This is tested for debian unstable and i might make for other distros like Kubuntu etc...
+
+icnludes also Papirus Icon Theme (https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
