@@ -54,8 +54,6 @@ sleep 1
 
 sudo nala update && sudo nala upgrade -y
 
-
-
 sleep 2
 
 
@@ -67,11 +65,11 @@ sudo nala install gnome-software-plugin-flatpak
 
 sleep 3
 
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
-sleep 2
-
 sudo apt install plasma-discover-backend-flatpak
+
+sleep 1
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 sleep 1
 echo "Done!"
