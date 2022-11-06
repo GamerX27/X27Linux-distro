@@ -28,6 +28,10 @@ sleep 2
 
 wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/materia-kde/master/install.sh | sh
 
+sleep 1
+
+wget -qO- https://git.io/papirus-icon-theme-install | sh
+
 sleep 4
 
 echo "now we are going to enable the non free packages and only tested on debian based distros"
