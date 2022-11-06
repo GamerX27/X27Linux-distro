@@ -59,7 +59,7 @@ sudo nala update && sudo nala upgrade -y
 sleep 2
 
 
-echo "no flatpak is going to installed for more apps"
+echo "now flatpak is going to installed for more apps"
 
 sleep 5
 
@@ -69,13 +69,17 @@ sleep 3
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
+sleep 2
 
+sudo apt install plasma-discover-backend-flatpak
+
+sleep 1
 echo "Done!"
 
 sleep 2
 
 
-echo "Thanks for using this script:)"
+echo "Thanks for using this script:) Made By yours truly X27"
 
 sleep 3
 echo "now the wallpaper will downloaded here you need to manualy"
