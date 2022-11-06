@@ -1,6 +1,16 @@
 # X27Linux-distro
 My first try of kinda making my own distro/ own desktop based on debian and it uses also Kde-desktop
 
+what you need!
+
+Debian 11 or later
+
+You need to pick the KDE DE cause of the script uses that
+
+an internet conection
+
+
+
 Screenshot of how it looks https://x27files.xxxwatchd.xyz/api/public/dl/qrHz56mE?inline=true
 
 This is tested for debian unstable and i might make for other distros like Kubuntu etc...
