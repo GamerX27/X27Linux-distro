@@ -55,7 +55,25 @@ sleep 1
 sudo nala update && sudo nala upgrade -y
 
 
+
 sleep 2
+
+
+echo "no flatpak is going to installed for more apps"
+
+sleep 5
+
+sudo nala install gnome-software-plugin-flatpak
+
+sleep 3
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+
+echo "Done!"
+
+sleep 2
+
 
 echo "Thanks for using this script:)"
 
