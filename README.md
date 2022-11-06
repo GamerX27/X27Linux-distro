@@ -13,3 +13,4 @@ also the package manager is the nala whichis a frontend for apt Link: https://gi
 
 wallpaper credit to: https://www.wallpaperflare.com/digital-digital-art-artwork-fantasy-art-drawing-painting-wallpaper-gjwku
 
+i also includ flatpak and the incrustions are here! https://flatpak.org/setup/Debian
