@@ -54,35 +54,14 @@ sleep 1
 
 sudo nala update && sudo nala upgrade -y
 
-sleep 2
-
-
-echo "now flatpak is going to installed for more apps"
-
-sleep 5
-
-sudo nala install gnome-software-plugin-flatpak
-
-sleep 3
-
-sudo apt install plasma-discover-backend-flatpak
-
-sleep 1
-
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
-sleep 1
-echo "Done!"
 
 sleep 2
 
-
-echo "Thanks for using this script:) Made By yours truly X27"
+echo "Thanks for using this script:)"
 
 sleep 3
 echo "now the wallpaper will downloaded here you need to manualy"
 echo "you also need to change to theme to the theme you downloaded on the kde settings"
 sleep 10
-echo "also the computer needs to reboot"
-sudo reboot
+sudo exit
 
