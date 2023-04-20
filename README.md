@@ -1,24 +1,16 @@
-# X27Linux-distro
-My first try of kinda making my own distro/ own desktop based on debian and it uses also Kde-desktop
+This is kinda my own linux Distro but not really but it is based with my config for Kde desktop
 
-what you need!
+To use it, you'll need to have Debian 11 or later installed and choose the KDE desktop environment since the script relies on it. An internet connection is also necessary. or use Kubuntu 
 
-Debian 11 or later
+You can see how it looks in this screenshot: https://i.imgur.com/r4m1BNU.png
 
-You need to pick the KDE DE cause of the script uses that
+I tested this on Debian unstable, and I've also made it available for other distributions like Kubuntu. The Papirus Icon Theme (https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) is also included.
 
-an internet conection
+For package management, I used Nala, a frontend for apt (https://gitlab.com/volian/nala).
+
+The wallpaper is credited to https://www.wallpaperflare.com/digital-digital-art-artwork-fantasy-art-drawing-painting-wallpaper-gjwku. I've also included Flatpak, and you can find the installation instructions here: https://flatpak.org/setup/Debian.
+
+Warning only use debian version on only debian and the Kubuntu/Ubuntu variants with kde desktop
 
 
-
-Screenshot of how it looks https://i.imgur.com/r4m1BNU.png
-
-This is tested for debian unstable and i might make for other distros like Kubuntu etc...
-
-icnludes also Papirus Icon Theme (https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
-
-also the package manager is the nala which is a frontend for apt Link: https://gitlab.com/volian/nala
-
-wallpaper credit to: https://www.wallpaperflare.com/digital-digital-art-artwork-fantasy-art-drawing-painting-wallpaper-gjwku
-
-i also included flatpak and the incrustions are here! https://flatpak.org/setup/Debian
+Not tested witk Kde neon yet
