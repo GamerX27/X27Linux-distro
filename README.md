@@ -11,7 +11,7 @@ an internet conection
 
 
 
-Screenshot of how it looks https://x27files.xxxwatchd.xyz/api/public/dl/qrHz56mE?inline=true
+Screenshot of how it looks https://i.imgur.com/r4m1BNU.png
 
 This is tested for debian unstable and i might make for other distros like Kubuntu etc...
 
