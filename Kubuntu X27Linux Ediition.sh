@@ -30,7 +30,7 @@ echo "Installing Materia theme..."
 
 sleep 2
 
-sudo apt install materia-kde -y
+sudo nala install materia-kde -y
 
 sleep 2
 
@@ -44,7 +44,7 @@ echo "Installing Flatpak..."
 
 sleep 2
 
-sudo apt install flatpak -y
+sudo nala install flatpak -y
 
 echo "Adding Flathub repository..."
 
