@@ -14,8 +14,8 @@ Pin-Priority: -10' | sudo tee /etc/apt/preferences.d/nosnap.pref
 # Update package information
 sudo apt update
 
-# Install gnome-core
-sudo apt install gnome-core
+# Install gnome-session
+sudo apt install gnome-session
 
 # Add Mozilla Firefox PPA
 sudo add-apt-repository ppa:mozillateam/ppa
