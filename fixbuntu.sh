@@ -15,7 +15,13 @@ Pin-Priority: -10' | sudo tee /etc/apt/preferences.d/nosnap.pref
 sudo apt update
 
 # Install gnome-session
-sudo apt install gnome-session
+sudo apt install -y gnome-session
+
+# Install GNOME Terminal
+sudo apt install -y gnome-terminal
+
+# Install essential GNOME applications
+sudo apt install -y gnome-calculator gnome-calendar gnome-screenshot gnome-system-monitor gnome-todo
 
 # Add Mozilla Firefox PPA
 sudo add-apt-repository ppa:mozillateam/ppa
@@ -34,13 +40,13 @@ echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codenam
 sudo apt update
 
 # Install Firefox
-sudo apt install firefox
+sudo apt install -y firefox
 
 # Install Flatpak
-sudo apt install flatpak
+sudo apt install -y flatpak
 
 # Install GNOME Software plugin for Flatpak
-sudo apt install gnome-software-plugin-flatpak
+sudo apt install -y gnome-software-plugin-flatpak
 
 # Add Flathub remote repository
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
