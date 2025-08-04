@@ -49,16 +49,16 @@ dnf5 remove -y \
   kmail* \
   korganizer* \
   kontact* \
-  plasma-discover* \
+#  plasma-discover* \
   calligra* \
   elisa-player \
   dragonplayer \
   firefox \
-  kde-connect \
+ # kde-connect \
   kamoso \
   kwalletmanager \
   kget \
-  kde-print-manager || true
+#  kde-print-manager || true
 
 dnf5 autoremove -y
 dnf5 clean all
